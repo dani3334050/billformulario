@@ -1,0 +1,109 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Jhon Mita Apaza</title>
+    <style>
+body {
+background-image: url('https://i.pinimg.com/originals/96/84/eb/9684eb8932b2fb5568d498704d525d78.jpg');
+ background-size: cover;
+background-attachment: fixed;
+font-family: Arial, sans-serif;
+  color: #333;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+    min-height: 100vh;
+  margin: 0;
+    }       
+
+  form {
+  background-color: rgba(255, 255, 255, 0.8);
+ padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+   width: 100%;
+    }      
+
+   p, label, b {
+   margin: 10px 0;
+ font-weight: bold;
+        } 
+   input[type="text"],
+   textarea {
+   width: 100%;
+   padding: 8px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   margin-top: 5px;
+     }
+
+   input[type="radio"],
+    input[type="checkbox"] {
+   margin-right: 8px;
+        }
+  
+   input[type="submit"],
+   input[type="reset"] {
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+    padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-right: 10px;
+    }
+   input[type="reset"] {
+   background-color: #f44336;
+   }
+   input[type="submit"]:hover,
+    input[type="reset"]:hover {
+   opacity: 0.9;
+  }
+  </style>
+</head>
+<body>
+  <form action="Formulario.html" method="POST">
+ <p><b>Usuario</b><br>
+ <input type="text" name="nom" size="20">
+</p>
+ <p><b>Departamento</b><br>
+<input type="radio" name="gen" value="S" checked> Santa Cruz<br>
+<input type="radio" name="gen" value="L"> La Paz<br>
+  <input type="radio" name="gen" value="P" checked> Pando<br>
+<input type="radio" name="gen" value="C" checked> Cochabamba<br>
+ <input type="radio" name="gen" value="B" checked> Beni<br>
+  <input type="radio" name="gen" value="C" checked> Chuquisaca<br>
+ <input type="radio" name="gen" value="T" checked> Tarija<br>
+  <input type="radio" name="gen" value="O" checked> Oruro<br>
+ <input type="radio" name="gen" value="P" checked> Potosi
+</p>
+<p><b>Cantidad</b><br>
+<input type="text" name="nombre" size="19">
+ </p>
+ <p><b>Piezas De Computadora</b><br>
+ <input type="checkbox" name="idiol" value="P"> Procesador Intel/AMD<br>
+ <input type="checkbox" name="idio2" value="P"> Placa Madre Intel/AMD<br>
+ <input type="checkbox" name="idio3" value="M"> Memoria Ram DDR4/DDR5<br>
+ <input type="checkbox" name="idio4" value="M"> Memoria SSD/M.2<br>
+ <input type="checkbox" name="idio5" value="F"> Fuente De Poder<br>
+<input type="checkbox" name="idio6" value="P"> Placa De Video<br>
+<input type="checkbox" name="idio7" value="T"> Teclado<br>
+<input type="checkbox" name="idio8" value="M"> Mouse<br>
+<input type="checkbox" name="idio9" value="A"> Audifonos<br>
+</p>
+<p><b>Cantidad</b><br>
+<input type="text" name="nombre" size="19">
+ </p>
+<p><b>Ubicacion Del Envio</b><br>
+<textarea name="cajal" rows="4" cols="40"></textarea>
+</p>
+<p>
+<input type="submit" name="boton I" value="Enviar">
+<input type="reset" name="boton2" value="Cancelar">
+</p>
+</form>
+</body>
+</html>
